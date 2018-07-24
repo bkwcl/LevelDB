@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\db">
+      <UniqueIdentifier>{dcdf3b4e-1bbe-47aa-ae1d-045e20860438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\helpers">
+      <UniqueIdentifier>{d100df49-6afd-40b8-b850-a1f2fc1ee5ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\port">
+      <UniqueIdentifier>{53037f2d-2fac-465e-a7f8-e78c8dbaf483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\table">
+      <UniqueIdentifier>{91d747ca-a96a-4f0c-9573-43453b4b86bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\util">
+      <UniqueIdentifier>{b4b02b64-ec04-4c05-8720-7094d8170b38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="db\builder.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="db\db_impl.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="db\db_iter.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="db\dbformat.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="db\filename.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="db\log_format.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="db\log_reader.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="db\log_writer.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="db\memtable.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="db\skiplist.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="db\snapshot.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="db\table_cache.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="db\version_edit.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="db\version_set.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="db\write_batch_internal.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\memenv\memenv.h">
+      <Filter>源文件\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="port\atomic_pointer.h">
+      <Filter>源文件\port</Filter>
+    </ClInclude>
+    <ClInclude Include="port\port.h">
+      <Filter>源文件\port</Filter>
+    </ClInclude>
+    <ClInclude Include="port\port_example.h">
+      <Filter>源文件\port</Filter>
+    </ClInclude>
+    <ClInclude Include="port\port_win.h">
+      <Filter>源文件\port</Filter>
+    </ClInclude>
+    <ClInclude Include="port\sha1_portable.h">
+      <Filter>源文件\port</Filter>
+    </ClInclude>
+    <ClInclude Include="port\thread_annotations.h">
+      <Filter>源文件\port</Filter>
+    </ClInclude>
+    <ClInclude Include="table\block.h">
+      <Filter>源文件\table</Filter>
+    </ClInclude>
+    <ClInclude Include="table\block_builder.h">
+      <Filter>源文件\table</Filter>
+    </ClInclude>
+    <ClInclude Include="table\filter_block.h">
+      <Filter>源文件\table</Filter>
+    </ClInclude>
+    <ClInclude Include="table\format.h">
+      <Filter>源文件\table</Filter>
+    </ClInclude>
+    <ClInclude Include="table\iterator_wrapper.h">
+      <Filter>源文件\table</Filter>
+    </ClInclude>
+    <ClInclude Include="table\merger.h">
+      <Filter>源文件\table</Filter>
+    </ClInclude>
+    <ClInclude Include="table\two_level_iterator.h">
+      <Filter>源文件\table</Filter>
+    </ClInclude>
+    <ClInclude Include="util\arena.h">
+      <Filter>源文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\coding.h">
+      <Filter>源文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\crc32c.h">
+      <Filter>源文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\hash.h">
+      <Filter>源文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\histogram.h">
+      <Filter>源文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\logging.h">
+      <Filter>源文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\mutexlock.h">
+      <Filter>源文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\posix_logger.h">
+      <Filter>源文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\random.h">
+      <Filter>源文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\testharness.h">
+      <Filter>源文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\testutil.h">
+      <Filter>源文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\win_logger.h">
+      <Filter>源文件\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="leveldb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="db\builder.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="db\c.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="db\db_impl.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="db\db_iter.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="db\dbformat.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="db\dumpfile.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="db\filename.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="db\log_reader.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="db\log_writer.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="db\memtable.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="db\repair.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="db\table_cache.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="db\version_edit.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="db\version_set.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="db\write_batch.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="helpers\memenv\memenv.cc">
+      <Filter>源文件\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="port\port_win.cc">
+      <Filter>源文件\port</Filter>
+    </ClCompile>
+    <ClCompile Include="port\sha1_portable.cc">
+      <Filter>源文件\port</Filter>
+    </ClCompile>
+    <ClCompile Include="table\block.cc">
+      <Filter>源文件\table</Filter>
+    </ClCompile>
+    <ClCompile Include="table\block_builder.cc">
+      <Filter>源文件\table</Filter>
+    </ClCompile>
+    <ClCompile Include="table\filter_block.cc">
+      <Filter>源文件\table</Filter>
+    </ClCompile>
+    <ClCompile Include="table\format.cc">
+      <Filter>源文件\table</Filter>
+    </ClCompile>
+    <ClCompile Include="table\iterator.cc">
+      <Filter>源文件\table</Filter>
+    </ClCompile>
+    <ClCompile Include="table\merger.cc">
+      <Filter>源文件\table</Filter>
+    </ClCompile>
+    <ClCompile Include="table\table.cc">
+      <Filter>源文件\table</Filter>
+    </ClCompile>
+    <ClCompile Include="table\table_builder.cc">
+      <Filter>源文件\table</Filter>
+    </ClCompile>
+    <ClCompile Include="table\two_level_iterator.cc">
+      <Filter>源文件\table</Filter>
+    </ClCompile>
+    <ClCompile Include="util\arena.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\bloom.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\cache.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\coding.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\comparator.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\crc32c.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\env.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\env_boost.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\filter_policy.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\hash.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\histogram.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\logging.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\options.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\status.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\testharness.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\testutil.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\win_logger.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="db\extensions.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="db\leveldb.def">
+      <Filter>源文件\db</Filter>
+    </None>
+    <None Include="port\README">
+      <Filter>源文件\port</Filter>
+    </None>
+  </ItemGroup>
+</Project>
